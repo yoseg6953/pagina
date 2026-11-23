@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades | Código Humano</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+<header class="encabezado-pagina">
+    <nav class="barra">
+        <a class="logo" href="index.html">CÓDIGO HUMANO</a>
+        <button class="menu-boton" id="menuBoton" aria-label="Abrir menú">☰</button>
+        <div class="menu" id="menu">
+            <a href="index.html">Inicio</a>
+            <a href="bienestar.html">Bienestar</a>
+            <a href="actividades.html">Etapas 1-3</a>
+            <a href="ruta.html">Etapas 4-6</a>
+            <a href="comunidad.html">Etapas 7-8</a>
+        </div>
+    </nav>
+
+    <div class="titulo-pagina">
+        <span class="mini-titulo">PRIMERA PARTE DEL RECORRIDO</span>
+        <h1>Reconozco mi situación</h1>
+        <p>Identificar, analizar y comprender para comenzar a cambiar.</p>
+    </div>
+</header>
+
+<main>
+    <section class="contenido-pagina etapa" id="etapa1">
+        <div class="etapa-numero">01</div>
+        <div class="etapa-contenido">
+            <span class="mini-titulo">PRIMERA ETAPA</span>
+            <h2>Escaneo del sistema</h2>
+            <p class="descripcion">Reconocer cómo se encuentra mi bienestar físico y emocional.</p>
+
+            <div class="imagen-etapa imagen-bienestar">
+                <img src="image2.png" alt="Imagen de la primera etapa" class="foto-etapa">
+                <div class="imagen-frase">Conocerme es el primer paso para cuidarme.</div>
+            </div>
+
+            <h3>Mi escaneo físico</h3>
+            <p>
+                Para conocer mi bienestar físico puedo reflexionar sobre mis hábitos
+                de descanso, alimentación, higiene y actividad física.
+            </p>
+
+            <h3>Mi escaneo emocional</h3>
+            <p>
+                También es importante reconocer cómo me siento, cómo expreso mis emociones
+                y qué hago cuando experimento preocupación, estrés o frustración.
+            </p>
+
+            <div class="evaluacion">
+                <h3>Autoevaluación personal</h3>
+                <p>Selecciona la opción que mejor describa cada aspecto.</p>
+
+                <label for="descanso">¿Cómo considero mi descanso?</label>
+                <select id="descanso">
+                    <option value="">Selecciona una opción</option>
+                    <option>Necesito mejorar mis hábitos</option>
+                    <option>Estoy trabajando en ello</option>
+                    <option>Tengo buenos hábitos</option>
+                </select>
+
+                <label for="actividad">¿Cómo es mi actividad física?</label>
+                <select id="actividad">
+                    <option value="">Selecciona una opción</option>
+                    <option>Necesito mejorar mis hábitos</option>
+                    <option>Estoy trabajando en ello</option>
+                    <option>Tengo buenos hábitos</option>
+                </select>
+
+                <label for="emociones">¿Reconozco mis emociones?</label>
+                <select id="emociones">
+                    <option value="">Selecciona una opción</option>
+                    <option>Necesito mejorar</option>
+                    <option>Estoy aprendiendo</option>
+                    <option>Generalmente puedo reconocerlas</option>
+                </select>
+
+                <label for="estres">¿Cómo manejo el estrés?</label>
+                <select id="estres">
+                    <option value="">Selecciona una opción</option>
+                    <option>Necesito aprender estrategias</option>
+                    <option>Estoy practicando</option>
+                    <option>Utilizo estrategias saludables</option>
+                </select>
+
+                <button class="boton boton-secundario" id="guardarEvaluacion">Guardar mi escaneo</button>
+                <p id="resultadoEvaluacion" class="resultado" aria-live="polite"></p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido-pagina etapa fondo-suave" id="etapa2">
+        <div class="etapa-numero">02</div>
+        <div class="etapa-contenido">
+            <span class="mini-titulo">SEGUNDA ETAPA</span>
+            <h2>Detecto el bug</h2>
+            <p class="descripcion">Identificar hábitos o situaciones que pueden afectar mi bienestar físico y emocional.</p>
+
+            <div class="imagen-etapa imagen-problemas">
+                <img src="image6.png" alt="Imagen de la segunda etapa" class="foto-etapa">
+                <div class="imagen-frase">Identificar un problema permite comenzar a resolverlo.</div>
+            </div>
+
+            <h3>¿Qué es un bug en mi bienestar?</h3>
+            <p>
+                En este proyecto, un bug representa un hábito o situación que puede
+                afectar mi salud o mi equilibrio emocional. Reconocerlo permite
+                comprender qué necesito cambiar.
+            </p>
+
+            <div class="tarjetas">
+                <article class="tarjeta">
+                    <h3>Falta de descanso</h3>
+                    <p>Puede provocar cansancio, dificultad para concentrarse e irritabilidad.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Sedentarismo</h3>
+                    <p>La falta de movimiento puede afectar la condición física y la salud.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Estrés constante</h3>
+                    <p>Puede generar preocupación, tensión y dificultades para realizar actividades.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>No expresar emociones</h3>
+                    <p>Puede dificultar la comunicación y la búsqueda de apoyo.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Descuido de la alimentación</h3>
+                    <p>Puede afectar la energía y el funcionamiento del organismo.</p>
+                </article>
+
+                <article class="tarjeta">
+                    <h3>Falta de autocuidado</h3>
+                    <p>Puede provocar que se ignoren necesidades físicas y emocionales.</p>
+                </article>
+            </div>
+
+            <div class="reflexion">
+                <h3>Reflexión</h3>
+                <p>
+                    Reconocer un hábito que necesito mejorar no significa que haya
+                    fracasado. Significa que puedo aprender y tomar decisiones
+                    para cuidar mi salud.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contenido-pagina etapa" id="etapa3">
+        <div class="etapa-numero">03</div>
+        <div class="etapa-contenido">
+            <span class="mini-titulo">TERCERA ETAPA</span>
+            <h2>Áreas afectadas</h2>
+            <p class="descripcion">Comprender cómo los hábitos y las situaciones influyen en mi vida.</p>
+
+            <div class="imagen-etapa imagen-areas">
+                <img src="image7.png" alt="Imagen de la tercera etapa" class="foto-etapa">
+                <div class="imagen-frase">Mi cuerpo y mis emociones están conectados.</div>
+            </div>
+
+            <h3>Consecuencias en el bienestar físico y emocional</h3>
+
+            <div class="tabla-contenedor">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Situación</th>
+                            <th>Área afectada</th>
+                            <th>Posible consecuencia</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Descansar poco</td>
+                            <td>Física y emocional</td>
+                            <td>Cansancio, irritabilidad y dificultad para concentrarse.</td>
+                        </tr>
+                        <tr>
+                            <td>No realizar actividad física</td>
+                            <td>Física</td>
+                            <td>Menor condición física y energía.</td>
+                        </tr>
+                        <tr>
+                            <td>Estrés frecuente</td>
+                            <td>Emocional y física</td>
+                            <td>Tensión y preocupación.</td>
+                        </tr>
+                        <tr>
+                            <td>No expresar lo que siento</td>
+                            <td>Emocional</td>
+                            <td>Dificultad para comunicar necesidades y pedir apoyo.</td>
+                        </tr>
+                        <tr>
+                            <td>Descuidar la alimentación</td>
+                            <td>Física</td>
+                            <td>Falta de energía y dificultades para mantener hábitos saludables.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>Relación entre ambas áreas</h3>
+            <p>
+                El bienestar físico y emocional se influyen mutuamente. Por ejemplo,
+                una rutina de descanso adecuada puede favorecer el estado de ánimo,
+                mientras que aprender a manejar el estrés puede ayudar a cuidar
+                el cuerpo y mantener hábitos saludables.
+            </p>
+
+            <div class="reflexion">
+                <h3>Conclusión de las primeras etapas</h3>
+                <p>
+                    Identificar mis hábitos y reconocer sus consecuencias me permite
+                    saber qué aspectos de mi salud física y emocional necesitan atención.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="navegacion-paginas">
+        <a href="bienestar.html" class="boton boton-claro">← Bienestar</a>
+        <a href="ruta.html" class="boton">Continuar a las etapas 4-6 →</a>
+    </div>
+</main>
+
+<footer>
+    <h2>CÓDIGO HUMANO</h2>
+    <p>CECyTE 24 · CUAHUIXMATLAC · 5.º D</p>
+    <p class="copyright">Proyecto escolar · PAE-5D</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
